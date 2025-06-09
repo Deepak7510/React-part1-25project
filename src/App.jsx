@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import AccordianApp from "./components/accordian";
 import RandomColorGenerater from "./components/random color";
+import GiveStar from "./components/give star";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +13,11 @@ function App() {
       {/* <AccordianApp /> */}
 
       {/* project -2  */}
-      <RandomColorGenerater />
+      {/* <RandomColorGenerater /> */}
+
+      {/* project 3  */}
+
+      <GiveStar />
     </>
   );
 }
