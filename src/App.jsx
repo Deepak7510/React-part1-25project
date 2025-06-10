@@ -4,6 +4,7 @@ import AccordianApp from "./components/accordian";
 import RandomColorGenerater from "./components/random color";
 import GiveStar from "./components/give star";
 import CustomSlider from "./components/custom slider";
+import ReadmoreFunction from "./components/readmore func";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,7 +21,10 @@ function App() {
       {/* <GiveStar /> */}
 
       {/* project 4  */}
-      <CustomSlider url={"https://picsum.photos/v2"} limit={5} />
+      {/* <CustomSlider url={"https://picsum.photos/v2"} limit={5} /> */}
+
+      {/* project 5   */}
+      <ReadmoreFunction />
     </>
   );
 }
