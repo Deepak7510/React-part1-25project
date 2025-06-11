@@ -7,6 +7,7 @@ import CustomSlider from "./components/custom slider";
 import ReadmoreFunction from "./components/readmore func";
 import Sidebar from "./components/tree view/Sidebar";
 import QRCodeGeneraterApp from "./components/QR Code generater";
+import LightDarkMode from "./components/light-dark-mode";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -31,8 +32,12 @@ function App() {
       {/* project 6 view free  */}
       {/* <Sidebar /> */}
 
-      {/* project 6  */}
-      <QRCodeGeneraterApp />
+      {/* project 7  */}
+      {/* <QRCodeGeneraterApp /> */}
+
+      {/* project 8  */}
+
+      <LightDarkMode />
     </>
   );
 }
