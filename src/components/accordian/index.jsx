@@ -44,11 +44,11 @@ function AccordianApp() {
                   onClick={() => {
                     handleClick(item.id);
                   }}
-                  className="p-4 border"
+                  className="p-4 border cursor-pointer"
                 >
                   <div className="flex justify-between">
                     <div>{item.question}</div>
-                    <div>+</div>
+                    <div>{open.includes(item.id) ? "-" : "+"}</div>
                   </div>
                   <div
                     className={`${open.includes(item.id) ? "block" : "hidden"}`}

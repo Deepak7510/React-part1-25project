@@ -5,6 +5,7 @@ import RandomColorGenerater from "./components/random color";
 import GiveStar from "./components/give star";
 import CustomSlider from "./components/custom slider";
 import ReadmoreFunction from "./components/readmore func";
+import Sidebar from "./components/tree view/Sidebar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       {/* project-1  */}
-      {/* <AccordianApp /> */}
+      <AccordianApp />
 
       {/* project -2  */}
       {/* <RandomColorGenerater /> */}
@@ -24,7 +25,10 @@ function App() {
       {/* <CustomSlider url={"https://picsum.photos/v2"} limit={5} /> */}
 
       {/* project 5   */}
-      <ReadmoreFunction />
+      {/* <ReadmoreFunction /> */}
+
+      {/* project 6 view free  */}
+      {/* <Sidebar /> */}
     </>
   );
 }
