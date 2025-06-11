@@ -18,6 +18,7 @@ import QRCodeGeneraterPage from "./pages/QRCodeGeneraterPage";
 import ReadmoreFunctionaltyPage from "./pages/ReadmoreFunctionaltyPage";
 import ThemeChangePage from "./pages/ThemeChangePage";
 import CustomSliderPage from "./pages/CustomSliderPage";
+import CustomTabsPage from "./pages/CustomTabsPage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -45,6 +46,7 @@ function App() {
               <CustomSliderPage url={"https://picsum.photos/v2"} limit={5} />
             }
           />
+          <Route path="custom-tabs" element={<CustomTabsPage />} />
         </Route>
       </Routes>
 

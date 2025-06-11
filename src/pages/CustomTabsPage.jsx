@@ -1,7 +1,7 @@
 import React from "react";
-import Tabs from "./Tabs";
+import Tabs from "../components/Tabs";
 
-const TabTest = () => {
+const CustomTabsPage = () => {
   const tabs = [
     {
       label: "Tab 1",
@@ -17,10 +17,12 @@ const TabTest = () => {
     },
   ];
   return (
-    <div>
-      <Tabs tabList={tabs} />
+    <div className="w-full px-10 pt-10">
+      <div className="p-1 border rounded-lg">
+        <Tabs tabList={tabs} />
+      </div>
     </div>
   );
 };
 
-export default TabTest;
+export default CustomTabsPage;

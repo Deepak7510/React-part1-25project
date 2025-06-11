@@ -30,6 +30,10 @@ const projectsList = [
     label: "Custom Slider",
     path: "/custom-slider",
   },
+  {
+    label: "Custom Tabs",
+    path: "/custom-tabs",
+  },
 ];
 
 const Sidebar = () => {
