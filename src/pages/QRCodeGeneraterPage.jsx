@@ -1,7 +1,7 @@
 import { useState } from "react";
 import QRCode from "react-qr-code";
 
-function QRCodeGeneraterApp() {
+function QRCodeGeneraterPage() {
   const [inputValue, setInputValue] = useState("");
   const [qrCodeValue, setQrCodeValue] = useState(null);
 
@@ -51,4 +51,4 @@ function QRCodeGeneraterApp() {
   );
 }
 
-export default QRCodeGeneraterApp;
+export default QRCodeGeneraterPage;

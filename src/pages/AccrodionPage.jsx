@@ -1,7 +1,7 @@
 import { useState } from "react";
-import data from "./data";
+import data from "../configs/accordian-data.js";
 
-function AccordianApp() {
+function AccordionPage() {
   const [open, setOpen] = useState([]);
   const [enable, setEnable] = useState(false);
   function handleClick(getId) {
@@ -67,4 +67,4 @@ function AccordianApp() {
   );
 }
 
-export default AccordianApp;
+export default AccordionPage;

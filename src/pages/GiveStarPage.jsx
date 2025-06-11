@@ -1,11 +1,11 @@
 import { useState } from "react";
-import Star from "./star";
+import Star from "../components/star";
 
-function GiveStar() {
+function GiveStarPage() {
   const [starValue, setStarvalue] = useState(0);
   const [hoverValue, setHoverValue] = useState(0);
   return (
-    <div className="h-screen w-screen flex justify-center items-center">
+    <div className="h-screen w-full flex justify-center items-center">
       {Array(10)
         .fill(null)
         .map((_, index) => {
@@ -24,4 +24,4 @@ function GiveStar() {
   );
 }
 
-export default GiveStar;
+export default GiveStarPage;

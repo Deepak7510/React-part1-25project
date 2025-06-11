@@ -8,6 +8,9 @@ function ProductTile({ productDetails }) {
           alt=""
         />
       </div>
+      <div className="my-2">
+        <div className="text-base font-medium">{productDetails.title}</div>
+      </div>
     </div>
   );
 }

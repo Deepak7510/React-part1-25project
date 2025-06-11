@@ -1,6 +1,6 @@
-import useLocalStorage from "./useLocalStorage";
-import "./styles.css";
-function LightDarkMode() {
+import "../pages css/ThemeChangePage.css";
+import useLocalStorage from "../custom hooks/useLocalStorage";
+function ThemeChangePage() {
   const [theme, setTheme] = useLocalStorage("theme", "dark");
 
   function handleSetTheme() {
@@ -24,4 +24,4 @@ function LightDarkMode() {
   );
 }
 
-export default LightDarkMode;
+export default ThemeChangePage;

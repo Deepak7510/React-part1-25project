@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function RandomColorGenerater() {
+function RandomColorGeneraterPage() {
   const [colorType, setColorType] = useState("HEX");
   const [color, setColor] = useState(null);
 
@@ -68,4 +68,4 @@ function RandomColorGenerater() {
   );
 }
 
-export default RandomColorGenerater;
+export default RandomColorGeneraterPage;

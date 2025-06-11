@@ -1,14 +1,11 @@
 import { useEffect, useState } from "react";
-import ProductTile from "./ProductTile";
+import ProductTile from "../components/ProductTile";
 
-function ReadmoreFunction() {
+function ReadmoreFunctionaltyPage() {
   const [productList, setProductList] = useState([]);
   const [loading, setLoading] = useState(false);
   const [limit, setLimit] = useState(4);
   const [skip, setSkip] = useState(0);
-
-  console.log(limit);
-  console.log(skip);
 
   async function fetchData() {
     try {
@@ -37,7 +34,8 @@ function ReadmoreFunction() {
   }, []);
 
   return (
-    <div className=" w-[1400px] mx-auto px-20 py-4">
+    <div className="mx-auto px-20 py-4">
+      <div className="text-2xl font-semibold my-2">Products</div>
       <div className=" grid grid-cols-4 gap-6">
         {loading ? (
           <div>Loading...</div>
@@ -63,4 +61,4 @@ function ReadmoreFunction() {
   );
 }
 
-export default ReadmoreFunction;
+export default ReadmoreFunctionaltyPage;

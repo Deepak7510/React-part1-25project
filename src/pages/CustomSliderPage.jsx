@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function CustomSlider({ url, limit }) {
+function CustomSliderPage({ url, limit }) {
   const [image, setImage] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
@@ -87,4 +87,4 @@ function CustomSlider({ url, limit }) {
   );
 }
 
-export default CustomSlider;
+export default CustomSliderPage;
