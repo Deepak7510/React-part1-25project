@@ -6,6 +6,7 @@ import GiveStar from "./components/give star";
 import CustomSlider from "./components/custom slider";
 import ReadmoreFunction from "./components/readmore func";
 import Sidebar from "./components/tree view/Sidebar";
+import QRCodeGeneraterApp from "./components/QR Code generater";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,7 +14,7 @@ function App() {
   return (
     <>
       {/* project-1  */}
-      <AccordianApp />
+      {/* <AccordianApp /> */}
 
       {/* project -2  */}
       {/* <RandomColorGenerater /> */}
@@ -29,6 +30,9 @@ function App() {
 
       {/* project 6 view free  */}
       {/* <Sidebar /> */}
+
+      {/* project 6  */}
+      <QRCodeGeneraterApp />
     </>
   );
 }
